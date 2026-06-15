@@ -51,3 +51,34 @@ The system allows users to send, receive, organize, and intelligently process em
 ---
 
 ## 📁 Project Structure
+
+
+#project structure
+project-root/
+│
+├── backend/ (Spring Boot)
+│ ├── src/main/java/com/app/mail/
+│ ├── controller/
+│ ├── service/
+│ ├── repository/
+│ ├── model/
+│ └── config/
+│
+├── frontend/ (Next.js)
+│ ├── pages/
+│ ├── components/
+│ ├── services/
+│ ├── styles/
+│ └── utils/
+│
+└── README.md
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/ai-mail-manager.git
+cd ai-mail-manager 
