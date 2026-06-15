@@ -1,7 +1,7 @@
-package com.example.demo.controller;
+package com.mailflow.controller;
 
-import com.example.demo.model.User;
-import com.example.demo.repository.UserRepository;
+import com.mailflow.model.User;
+import com.mailflow.repository.UserRepository;
 
 import java.util.List;
 
