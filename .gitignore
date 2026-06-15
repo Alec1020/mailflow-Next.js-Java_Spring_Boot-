@@ -1,0 +1,88 @@
+# =========================
+# OS / System files
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+
+# =========================
+# IDE files
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# =========================
+# Node.js / Next.js (Frontend)
+# =========================
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/dist/
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Next.js cache
+frontend/.vercel/
+frontend/.turbo/
+
+# =========================
+# Spring Boot (Backend)
+# =========================
+backend/target/
+backend/*.log
+
+# Maven
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+
+# Gradle (if used)
+backend/.gradle/
+backend/build/
+
+# =========================
+# Java / Spring Boot
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+
+# =========================
+# Database files (if any local)
+# =========================
+*.db
+*.sqlite
+*.sql
+
+# =========================
+# AI / API keys (important)
+# =========================
+*.key
+*.pem
+
+# =========================
+# Coverage reports
+# =========================
+coverage/
+
+# =========================
+# Misc
+# =========================
+*.swp
+*.swo
