@@ -35,7 +35,7 @@ public class UserController {
         return userRepository.save(user);
     }
 
-    @PostMapping("/login")
+    @RequestMapping("/login")
     public User login(@RequestBody User request) {
         if (request.getEmail() == null || request.getEmail().isBlank() || request.getPassword() == null
                 || request.getPassword().isBlank()) {
