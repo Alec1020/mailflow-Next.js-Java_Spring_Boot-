@@ -37,6 +37,7 @@ public class UserController {
 
     @RequestMapping("/login")
     public User login(@RequestBody User request) {
+
         if (request.getEmail() == null || request.getEmail().isBlank() || request.getPassword() == null
                 || request.getPassword().isBlank()) {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Email and password are required.");

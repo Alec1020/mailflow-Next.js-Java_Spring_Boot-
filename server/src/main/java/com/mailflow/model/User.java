@@ -12,7 +12,6 @@ public class User {
     private String name; // field for the user's name
     @Indexed(unique = true)
     private String email; // field for the user's email
-    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private String password;
 
     // Empty constructor (Important for Spring Data MongoDB)
